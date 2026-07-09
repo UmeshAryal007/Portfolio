@@ -19,4 +19,4 @@ A modern Full Stack Developer portfolio built using:
 
 ## Live Demo
 
-https://umesharyal007.github.io/portfolio/
+https://umesharyal007.github.io/Portfolio/
