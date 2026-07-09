@@ -1,0 +1,81 @@
+/*=====================================
+SCROLL REVEAL ANIMATION
+======================================*/
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(70px);
+
+    transition:all .8s cubic-bezier(.215,.61,.355,1);
+
+}
+
+.reveal.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* Left */
+
+.reveal-left{
+
+    opacity:0;
+
+    transform:translateX(-80px);
+
+    transition:all .8s cubic-bezier(.215,.61,.355,1);
+
+}
+
+.reveal-left.active{
+
+    opacity:1;
+
+    transform:translateX(0);
+
+}
+
+/* Right */
+
+.reveal-right{
+
+    opacity:0;
+
+    transform:translateX(80px);
+
+    transition:all .8s cubic-bezier(.215,.61,.355,1);
+
+}
+
+.reveal-right.active{
+
+    opacity:1;
+
+    transform:translateX(0);
+
+}
+
+/* Zoom */
+
+.reveal-zoom{
+
+    opacity:0;
+
+    transform:scale(.9);
+
+    transition:all .8s cubic-bezier(.215,.61,.355,1);
+
+}
+
+.reveal-zoom.active{
+
+    opacity:1;
+
+    transform:scale(1);
+
+}
